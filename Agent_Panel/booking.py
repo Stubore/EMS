@@ -9,7 +9,7 @@ connection = mysql.connector.connect(
     host="localhost",
     user="root",
     password="",
-    database="EventManagement System"
+    database="Event Management System"
 )
 
 cursor = connection.cursor()
