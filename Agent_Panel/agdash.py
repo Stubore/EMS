@@ -1,7 +1,7 @@
 from tkinter import*
 from PIL import ImageTk
 
-#GUI
+#Graphical User interrface
 root = Tk()
 root.geometry('990x660+50+50')
 root.resizable(0,0)
