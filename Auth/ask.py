@@ -37,7 +37,7 @@ AdminButton = Button(root, text='Admin', font=('Open Sans', 16, 'bold'), fg='#A5
 AdminButton.place(x=630, y=300)
 
 
-AgentButton = Button(root, text='Agent', font=('Open Sans', 16, 'bold'), fg='#A5256B', bg='#DFA7E4', activebackground='#DFA7E4', highlightbackground='#DFA7E4', cursor='hand2', bd=0, width=13, height=1,command=Agent)
+AgentButton = Button(root, text='Customer', font=('Open Sans', 16, 'bold'), fg='#A5256B', bg='#DFA7E4', activebackground='#DFA7E4', highlightbackground='#DFA7E4', cursor='hand2', bd=0, width=13, height=1,command=Agent)
 AgentButton.place(x=800, y=300)
 
 

@@ -12,7 +12,8 @@ db = mysql.connector.connect(
     database="Event Management System"
 )
 
-#function
+#functions
+
 def clock():
     date=time.strftime('%d/%m/%Y')
     currenttime=time.strftime('%H:%M:%S')
@@ -41,7 +42,7 @@ def deletedecor():
             messagebox.showerror('Error', f'Error deleting venue: {e}')
 
 
-#show decoration
+#show decor
 # def showdecor():
 #     con = mysql.connector.connect(host='localhost', user='root', password='', database='Event Management System')
 #     cursor = con.cursor()

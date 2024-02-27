@@ -6,7 +6,6 @@ import ttkthemes
 from tkinter import ttk, BOTH
 import mysql.connector
 
-
 db = mysql.connector.connect(
     host="localhost",
     user="root",
@@ -14,7 +13,7 @@ db = mysql.connector.connect(
     database="Event Management System"
 )
 
-#function
+#functions
 def clock():
     date=time.strftime('%d/%m/%Y')
     currenttime=time.strftime('%H:%M:%S')

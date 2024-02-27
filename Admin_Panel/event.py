@@ -14,14 +14,14 @@ db = mysql.connector.connect(
 )
 
 
-#function
+#functionality
 def clock():
     date=time.strftime('%d/%m/%Y')
     currenttime=time.strftime('%H:%M:%S')
     datetimelabel.config(text=f'Date:{date}\nTime:{currenttime}')
     datetimelabel.after(1000,clock)
 
-#delete agent
+
 def deleteagent():
     selected_item = eventTable.focus()
     
