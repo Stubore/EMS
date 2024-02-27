@@ -18,7 +18,7 @@ def catering():
     root.destroy()
     import catering
 
-#GUI
+#Graphical
 root = Tk()
 root.geometry('990x660+50+50')
 root.resizable(0,0)
@@ -46,11 +46,13 @@ EventButton.place(x=300, y=175)
 VenueButton = Button(root, text='Venue', font=('Open Sans', 16, 'bold'), fg='#A5256B', bg='#DFA7E4', activebackground='#DFA7E4', highlightbackground='#DFA7E4', cursor='hand2', bd=0, width=13, height=1,command=venue)
 VenueButton.place(x=600, y=175)
 
+
 DecorationButton = Button(root, text='Decoration', font=('Open Sans', 16, 'bold'), fg='#A5256B', bg='#DFA7E4', activebackground='#DFA7E4', highlightbackground='#DFA7E4', cursor='hand2', bd=0, width=13, height=1,command=decoration)
 DecorationButton.place(x=600, y=300)
 
 CateringButton = Button(root, text='Catering', font=('Open Sans', 16, 'bold'), fg='#A5256B', bg='#DFA7E4', activebackground='#DFA7E4', highlightbackground='#DFA7E4', cursor='hand2', bd=0, width=13, height=1,command=catering)
 CateringButton.place(x=300, y=300)
+
 
 exitbutton=Button(root,text='Exit',font=('Open Sans', 16, 'bold'), fg='#A5256B', bg='#DFA7E4', activebackground='#DFA7E4', highlightbackground='#DFA7E4', cursor='hand2', bd=0,width=13)
 exitbutton.place(x=50,y=550)
