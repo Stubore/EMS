@@ -29,7 +29,7 @@ def register():
 
 
 
-# GUI
+# Graphical User Interface
 root = Tk()
 root.geometry('990x660+50+50')
 root.resizable(0, 0)
