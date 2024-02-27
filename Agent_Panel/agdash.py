@@ -14,7 +14,7 @@ bgLabel.place(x=0,y=0)
 
 
 heading=Label(root,text='Welcome To Agent Panel!',font=('Microsoft Yahei UI Light',30,'bold'),bg='white',fg='#A5256B')
-heading.place(x=280,y=20)
+heading.place(x=280, y=20)
 
 heading1=Label(root,text='Dasboard',font=('Microsoft Yahei UI Light',22),bg='white',fg='#A5256B')
 heading1.place(x=280,y=90)
