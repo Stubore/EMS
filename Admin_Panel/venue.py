@@ -12,13 +12,14 @@ db = mysql.connector.connect(
     database="Event Management System"
 )
 
-#functionality
+#function
 def clock():
     date=time.strftime('%d/%m/%Y')
     currenttime=time.strftime('%H:%M:%S')
     datetimelabel.config(text=f'Date:{date}\nTime:{currenttime}')
     datetimelabel.after(1000,clock)
 
+#function for delete venue
 def deletevenue():
     selected_item = venueTable.focus()
     
