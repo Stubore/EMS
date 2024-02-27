@@ -4,7 +4,8 @@ from tkinter import ttk
 from tkinter import messagebox
 import mysql.connector
 
-# Connect to MySQL database
+# Connect to MySQL database'
+
 connection = mysql.connector.connect(
     host="localhost",
     user="root",
@@ -33,7 +34,7 @@ event_records = cursor.fetchall()
 # Fetch all the records
 
 
-# Close cursor and connection
+# Close cursor and connection in tkinter
 cursor.close()
 connection.close()
 
